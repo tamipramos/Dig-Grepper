@@ -1,4 +1,4 @@
-#dig_grepper.sh
+# DIG_GREPPER
 This script is a Bash script designed to perform DNS queries using the dig command and retrieve information about IP addresses and websites.
 
 ## How to use
@@ -11,12 +11,19 @@ If a website URL is provided, the script will perform a DNS query using the dig 
 The script can also take an optional DNS server as its first argument. If a DNS server is provided, the script will use that server instead of the default system DNS server.
 
 Examples:
+
 `./dig_grepper google.es`
+
 `./dig_grepper @8.8.8.8 google.es`
+
 `./dig_grepper @8.8.8.8 54.54.54.54`
+
 `./dig_grepper 54.54.54.54`
+
 `./dig_grepper @8.8.8.8 google.es 54.54.54.54`
+
 `./dig_grepper google.es 54.54.54.54 @8.8.8.8 192.168.16.16`
+
 `./dig_grepper @8.8.8.8 google.es @12.12.12.12 54.54.54.54`
 
 ## Functions
